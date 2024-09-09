@@ -1,0 +1,22 @@
+@use "variables";
+
+body {
+    background-color: variables.$primary;
+}
+
+.card {
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+}
+
+.card__btn {
+    @include text.small-cap;
+     width: 100%;
+     padding-right: 5px;
+     background: color.complement($primary);
+     background: color.adjust($color, $whiteness: 15%); 
+     &:hover {
+        background: color.adjust($color, $whiteness: 25%); 
+     }
+}
