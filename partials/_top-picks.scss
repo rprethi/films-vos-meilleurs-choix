@@ -1,4 +1,6 @@
+@use "sass:color";
 @use "variables";
+@use "./mixins/text";
 
 .top-picks { 
   position: relative;

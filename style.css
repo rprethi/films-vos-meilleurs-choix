@@ -3,7 +3,7 @@
   padding: 50px;
 }
 .top-picks__header {
-  border-left: solid 5px #73BA9B;
+  border-left: solid 5px #fcfcfc;
   padding-left: 20px;
 }
 .top-picks__title {
@@ -16,4 +16,27 @@
 .top-picks__wrapper {
   display: flex;
   margin: 0 -5px;
+}
+
+.card {
+  padding: 5px;
+  margin: 5px;
+}
+.card__btn {
+  font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 5px 9px;
+  border: none;
+  background-color: #788c69;
+  color: #000000;
+}
+.card__btn:hover {
+  background-color: #687c5a;
+}
+
+body {
+  background-color: #859f72;
 }/*# sourceMappingURL=style.css.map */
